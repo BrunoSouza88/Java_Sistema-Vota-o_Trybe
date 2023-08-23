@@ -2,7 +2,6 @@ package com.betrybe.sistemadevotacao;
 
 public abstract class Pessoa {
   protected String nome;
-  public int altura;
 
   public Pessoa() {}
 
