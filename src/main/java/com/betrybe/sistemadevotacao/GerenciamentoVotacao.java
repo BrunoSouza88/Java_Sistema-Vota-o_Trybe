@@ -36,10 +36,10 @@ public class GerenciamentoVotacao {
    * Metodo cadastro pessoa eleitora.
    */
   public void cadastrarPessoaEleitora(String nome, String cpf) {
-
     for (PessoaEleitora eleitor : pessoasEleitoras) {
-      if (eleitor.getCpf() == cpf) {
+      if (eleitor.getCpf().equals(cpf)) {
         System.out.println("Pessoa eleitora já cadastrada!");
+        return;
       }
     }
 
