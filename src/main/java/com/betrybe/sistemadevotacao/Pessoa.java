@@ -3,9 +3,7 @@ package com.betrybe.sistemadevotacao;
 public abstract class Pessoa {
   protected String nome;
 
-  public Pessoa(String name) {
-    this.nome = name;
-  }
+  public Pessoa() {}
 
   public String getNome() {
     return this.nome;
